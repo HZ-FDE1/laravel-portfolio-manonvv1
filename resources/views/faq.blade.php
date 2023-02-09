@@ -8,7 +8,7 @@
     <meta name="author" content="Manon van Vliet">
     <meta name="keywords" content="Blog, Dashboard, Faq, First Feedback, FOW, Index, Profile, Study Choice, SWOT">
     <meta name="description" content="Een overzicht van de geplaatste blogs.">
-    <title>Homepagina</title>
+    <title>Faq</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -70,74 +70,62 @@
 <body>
 <nav>
     <div class="navigation">
-        <a class="link-page" href="./">Home</a>
+        <a class="link-sidebar" href="./">Home</a>
         <a class="link-sidebar" href="./profile">Profile</a>
         <a class="link-sidebar" href="./dashboard">Dashboard</a>
-        <a class="link-sidebar" href="./faq">Faq</a>
+        <a class="link-page" href="./faq">Faq</a>
         <a class="link-sidebar" href="./blog">Blog</a>
     </div>
 </nav>
 
-<!--motivatie studie-->
+<!--veelgestelde vragen-->
 <main>
     <div class="heading">
-        <header>
-            <h1>~ Home ~</h1>
+        <h1>~ Faq ~</h1>
     </div>
+
     <div class="profile">
-        <h2>Waarom past deze studie bij mij?</h2>
+        <h2>Veel gestelde vragen!</h2>
         <figure>
             <img class="heart" src="https://i.pinimg.com/originals/bd/d3/36/bdd3360a05b0c02cc9cc766a73bc75fc.gif"
                  alt="heart">
         </figure>
-
         <hr>
+        <p>Hoe print je een document van je laptop in HZ?</p>
+        <p class="font">Je moet je pasje opladen met geld en dan kun je naar de printer lopen en je pasje scannen en het
+            document
+            wat je wilt scannen printen. Je kunt je bestand via print.hz doorsturen.</p>
+
+        <p>Hoe scan je een document en verstuur je dit naar je laptop op HZ?</p>
+        <p class="font">Je moet je pasje opladen met geld en dan kun je naar de printer lopen. Je pasje scannen en zo kun
+            je dit naar je email versturen op je laptop.</p>
+
+        <p>Hoe koop ik iets in de HZ web shop?</p>
+        <p class="font">Ga naar de <a target="_blank"
+                                      href="https://webshop.hz.nl/webshopapp/defaulten.aspx?menu=082076044027019251066025111065201099237062130097"
+                                      alt="hz-webshop">website</a>. Login, en voeg het product dat je wilt aan je winkelmandje toe. En betalen maar!
+        </p>
+
+        <p>Waar kan ik de laatste instructies vinden over het ziek zijn en COVID?</p>
+        <p class="font">Ga naar de <a target="_blank" href="https://hz.nl" alt="hz-website">hz website</a>, klik op
+            actualiteiten en dan zie je coronavirus en
+            de laatse updates.</p>
+
+        <p>Hoe kan ik een project ruimte reserveren op HZ?</p>
+        <p class="font">Login op je HZ Account en klik vervolgens bovenaan op services, dan op helpdesk & dienst
+            automatisering.
+            Of klik op deze <a href="https://hzuniversity.topdesk.net/tas/public/ssp/" alt="ruimte reserveren">link</a>.
+            Dan kom je op een nieuwe pagina en kan je op "Maak een reservering" klikken om een ruimte te reserveren.
+        </p>
+
+        <p>Wat zijn de instructies over het parkeren op de HZ parkeerplaats?</p>
+        <p class="font">Ga naar de <a target="_blank" href="https://hz.nl" alt="hz-website">hz website</a>. Klik
+            vervolgens op "Over de HZ", klik dan op locaties
+            en de locatie van je school. Dan kom je op een nieuwe pagina en daar staat informatie over het parkeren.</p>
 
         <figure>
-            <img class="content" src="https://data.whicdn.com/images/209144489/original.gif" alt="girl studying"></p>
+            <img class="content" src="https://i.pinimg.com/originals/16/97/a2/1697a249f70bfb55a7fc49b0175807d8.gif" alt="vraagteken">
         </figure>
-
-        <p> ICT kwam als eerste in mij op omdat technische en creatieve dingen mij liggen, sinds dat ik jong was
-            ben ik geïnteresseerd en nieuwsgierig in hoe computers en software in elkaar steken. Omdat vrienden van mij soms
-            aan het
-            programmeren waren raakte ik hier meer geïnteresseerd in en wilde ik ook graag leren hoe ik kan coderen. Omdat
-            ik zo geïnteresseerd
-            was en ik thuis aan het oefenen was voordat ik me inschreef vond ik het zo leuk dat ik me meer wilde
-            verdiepen in de ICT. Ik zou graag nog meerdere programmeertalen willen leren.
-            Het leuke aan ICT vind ik ook dat je altijd zult blijven leren omdat er elke dag weer nieuwe dingen worden
-            ontwikkeld, zodat je je nooit zult vervelen met de hele tijd maar dezelfde
-            dingen te doen. Ik vind het ook leuk dat we opdrachten gaan doen voor echte opdrachtgevers omdat je dan gelijk
-            een kijkje neemt in het bedrijfsleven, wat trouwens een leuke
-            uitdaging zal zijn!!
-            <a target="_blank" href="https://hz.nl/opleidingen/hbo-ict">HBO-ICT</a> is erg breed
-            en het lijkt me heel leuk om alle kanten van dit vak te kunnen zien. Het is een goede basis voor als ik later in
-            het bedrijfsleven
-            kom.
-            De richtingen die ik op kan gaan:
-
-        <ul>
-            <li>Business IT Consultant
-                <a target="_blank" href="https://hz.nl/opleidingen/hbo-ict/studieroutes/business-it-consultant-bic"
-                   alt="BIC">(BIC)</a>
-            </li>
-            <li>Software Engineer
-                <a target="_blank" href="https://hz.nl/opleidingen/hbo-ict/studieroutes/software-engineer-se" alt="SE">(SE)</a>
-            </li>
-            <li>Data Scientist
-                <a target="_blank" href="https://hz.nl/opleidingen/hbo-ict/studieroutes/data-scientist-ds" alt="DS">(DS)</a>
-            </li>
-        </ul>
-
-        <figure>
-            <img class="content"
-                 src="https://fiverr-res.cloudinary.com/w_iw_div_3.0,q_auto,f_auto/seo/skills/content/images/sm_game-development.jpg"
-                 alt="programming">
-        </figure>
-        <p>Natuurlijk weet ik nu nog niet welke richting ik op wil gaan maar op dit moment vind ik het al erg leuk om een
-            website te bouwen.
-            Daarom heb ik er erg veel zin om aan andere projecten te werken en mijn vaardigheden te verbeteren.
-            Het fijne aan deze sector is dat ik weet dat ik later garantie heb op werk en een goed salaris.
-            Met ICT kan je werken in elke sector wat het ook weer interessanter maakt dus je hebt veel keus later!</p>
     </div>
 </main>
 </body>

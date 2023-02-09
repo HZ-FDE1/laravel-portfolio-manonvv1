@@ -1,0 +1,325 @@
+/* Div blokken */
+
+body {
+    background-image: url(https://r4.wallpaperflare.com/wallpaper/541/707/751/touhou-izayoi-sakuya-anime-girls-winter-wallpaper-b9d0a88df1aa9d3b1607988f3051563d.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.profile, .hobbys, .table, .strengths{
+    width: 45%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 260px;
+    margin-right: 260px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-style: solid
+}
+
+div.profile, div.hobbys, div.table, div.strenghts {
+    opacity: 0.9;
+}
+
+.heading {
+    width: 45%;
+    background-color:rgb(251, 231, 255);
+    margin-left: 260px;
+    margin-right: 260px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-style: solid;
+}
+
+.sidebar {
+    background-color:rgb(251, 231, 255);
+    width:250px;
+    margin-right:95%;
+    height:730px;
+    position:fixed;
+    border-style: solid;
+}
+
+.navigation {
+    background-color: rgb(255, 255, 255);
+    width:250px;
+    border:solid;
+
+}
+
+hr {
+    height: 3px;
+    background-color: rgb(201, 165, 222);
+    border-color: rgb(0, 0, 0);
+
+}
+
+.second-heading {
+    height: 2px;
+    background-color:  rgb(255, 255, 255);
+    border-color: rgb(193, 147, 199);
+}
+
+
+/*Table*/
+
+table, tr, th, td {
+    border: 2px solid rgb(201, 165, 222);
+    border-collapse: collapse;
+    width: 675px;
+    text-align:center;
+    font-family: Trebuchet MS;
+}
+
+th, .quartile {
+    background-color:rgb(251, 231, 255);
+    font-weight:bold;
+}
+
+.work-in-progress {
+    background-color:rgb(217, 217, 255);
+}
+
+.passed-exam {
+    background-color:rgb(222, 255, 222)
+}
+
+.failed-exam {
+    background-color:rgb(255, 201, 201)
+}
+
+/*Links*/
+
+a, .link-sidebar {
+    color: rgb(0, 0, 0);
+    font-family: Trebuchet MS;
+}
+
+a:hover, .link-page {
+    color: rgb(156, 104, 169);
+}
+
+
+.link-school {
+    color: rgb(0, 0, 0);
+    font-family: Trebuchet MS;
+    font-size:larger;
+
+}
+
+
+/*lettertypes*/
+
+h1 {
+    font-family: lucida handwriting;
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+
+h1:hover {
+    color:rgb(149, 63, 60);
+}
+
+h2 {
+    font-family: lucida handwriting;
+    color: rgb(156, 104, 169);
+    text-align: center;
+
+}
+
+h3, .hz-website {
+    font-family: Trebuchet MS;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: small;
+    margin-bottom: 1px;
+    margin-top: 1px;
+
+}
+
+p,
+ul,
+ol {
+    color: rgb(0, 0, 0);
+    font-family: Trebuchet MS;
+    text-align: left;
+    font-size:smaller;
+}
+
+.font {
+    color:rgb(156, 104, 169);
+}
+
+.text-sidebar {
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.characteristics {
+    font-family: lucida handwriting;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+/*items*/
+
+.question {
+    text-align: left;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+.answer {
+    text-align: right;
+    width: 50%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+.item p{
+    display: inline-block;
+    width: 50%;
+}
+
+.good {
+    text-align: left;
+    font-size: small;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+.good:hover {
+    background-color:rgb(205, 255, 205)
+}
+
+.bad:hover {
+    background-color:rgb(255, 150, 150)
+}
+
+.bad {
+    text-align: right;
+    width: 50%;
+    font-size: small;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+/*navigatie*/
+
+nav {
+    position:fixed;
+}
+
+/*plaatjes*/
+
+.logo {
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+.content {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 65%;
+    height: 65%;
+    border-radius:10px;
+
+}
+
+.hz-logo {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-right:auto;
+}
+
+.picture-sidebar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 204px;
+    height: 38px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius:10px;
+}
+
+.heart {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25px;
+    height: 25px
+}
+
+.pink-mercy, .portfolio {
+    display: block;
+    width: 65%;
+    height: 65%;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:10px;
+}
+
+.characteristics-picture, .espeon, .motivation {
+    display: block;
+    width: 75%;
+    height: 75%;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:10px;
+}
+
+/*scrollbar*/
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(210, 166, 221);
+}
+
+/*progressiebar*/
+
+.container {
+    background-color: rgb(192, 192, 192);
+    width: 80%;
+    border-radius: 15px;
+}
+
+.skill {
+    background-color: rgb(223, 208, 255);
+    color: white;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.html {
+    width: 60%;
+}
+
+.php {
+    width: 60%;
+}
