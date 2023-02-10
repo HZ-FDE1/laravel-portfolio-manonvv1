@@ -90,38 +90,10 @@
             <img class="heart" src="https://i.pinimg.com/originals/bd/d3/36/bdd3360a05b0c02cc9cc766a73bc75fc.gif"
                  alt="heart">
         </figure>
-        <hr>
-        <p>Hoe print je een document van je laptop in HZ?</p>
-        <p class="font">Je moet je pasje opladen met geld en dan kun je naar de printer lopen en je pasje scannen en het
-            document
-            wat je wilt scannen printen. Je kunt je bestand via print.hz doorsturen.</p>
-
-        <p>Hoe scan je een document en verstuur je dit naar je laptop op HZ?</p>
-        <p class="font">Je moet je pasje opladen met geld en dan kun je naar de printer lopen. Je pasje scannen en zo kun
-            je dit naar je email versturen op je laptop.</p>
-
-        <p>Hoe koop ik iets in de HZ web shop?</p>
-        <p class="font">Ga naar de <a target="_blank"
-                                      href="https://webshop.hz.nl/webshopapp/defaulten.aspx?menu=082076044027019251066025111065201099237062130097"
-                                      alt="hz-webshop">website</a>. Login, en voeg het product dat je wilt aan je winkelmandje toe. En betalen maar!
-        </p>
-
-        <p>Waar kan ik de laatste instructies vinden over het ziek zijn en COVID?</p>
-        <p class="font">Ga naar de <a target="_blank" href="https://hz.nl" alt="hz-website">hz website</a>, klik op
-            actualiteiten en dan zie je coronavirus en
-            de laatse updates.</p>
-
-        <p>Hoe kan ik een project ruimte reserveren op HZ?</p>
-        <p class="font">Login op je HZ Account en klik vervolgens bovenaan op services, dan op helpdesk & dienst
-            automatisering.
-            Of klik op deze <a href="https://hzuniversity.topdesk.net/tas/public/ssp/" alt="ruimte reserveren">link</a>.
-            Dan kom je op een nieuwe pagina en kan je op "Maak een reservering" klikken om een ruimte te reserveren.
-        </p>
-
-        <p>Wat zijn de instructies over het parkeren op de HZ parkeerplaats?</p>
-        <p class="font">Ga naar de <a target="_blank" href="https://hz.nl" alt="hz-website">hz website</a>. Klik
-            vervolgens op "Over de HZ", klik dan op locaties
-            en de locatie van je school. Dan kom je op een nieuwe pagina en daar staat informatie over het parkeren.</p>
+            @foreach($faqs as $faq)
+                <p><strong>{{ $faq->question }}</p></strong>
+                <p>{{ $faq->answer }}</p>
+            @endforeach
 
         <figure>
             <img class="content" src="https://i.pinimg.com/originals/16/97/a2/1697a249f70bfb55a7fc49b0175807d8.gif" alt="vraagteken">
