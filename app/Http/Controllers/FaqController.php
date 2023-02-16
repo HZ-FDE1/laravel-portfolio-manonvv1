@@ -11,5 +11,21 @@ class FaqController extends Controller
         $faqs = Faq::all();
         return view('faq')-> with('faqs',$faqs);
     }
-    //
+
+    public function create(){
+        return view ( 'faq.create');
+    }
+
+    public function store(){
+        $faq = new Faq();
+
+        $faq->title = request('title');
+        $faq->excerpt = request('excerpt');
+        $faq->body = request('body');
+
+        $faq->save();
+
+        return redirect('/faq');
+    }
+
 }
