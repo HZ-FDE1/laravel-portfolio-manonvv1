@@ -28,4 +28,21 @@ class FaqController extends Controller
         return redirect('/faq');
     }
 
+    public function edit($id){
+        $faq = Faq::find($id);
+        return view('faq.edit', ['blog' => $faq]);
+    }
+
+    public function update($id){
+        $faq = Faq::find($id);
+
+        $faq->title = request('title');
+        $faq->excerpt = request('excerpt');
+        $faq->body = request('body');
+
+        $faq->save();
+
+        return redirect('/faq' . $faq ->id);
+    }
+
 }
