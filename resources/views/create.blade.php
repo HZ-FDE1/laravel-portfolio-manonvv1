@@ -10,23 +10,17 @@
                     <label class="label" for="title">Title</label>
 
                     <div class="control">
-                        <input class="input" type="text" name="" id="">
+                        <input class="input" type="text" name="title" id="title">
+                        <p class="help is-danger">{{$errors->first('title')}}</p>
                     </div>
                 </div>
 
                 <div class="field">
-                    <label class="label" for="excerpt">Excerpt</label>
+                    <label class="label" for="content">Content</label>
 
                     <div class="control">
-                        <textarea class="textarea" name="excerpt" id="excerpt"></textarea>
-                    </div>
-                </div>
-
-                <div class="field">
-                    <label class="label" for="body">Body</label>
-
-                    <div class="control">
-                        <textarea class="textarea" name="body" id="body"></textarea>
+                        <textarea class="textarea" name="content" id="content"></textarea>
+                        <p class="help is-danger">{{$errors->first('content')}}</p>
                     </div>
                 </div>
 

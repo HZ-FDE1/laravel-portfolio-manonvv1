@@ -5,10 +5,6 @@
             <h1>~Blog~</h1>
         </div>
 
-        @extends('layout')
-
-        @section('content')
-
             @forelse($articles as $post)
                 <h2>{{ $post->Title }}</h2>
                 <p>{{ Str::limit($post->Content, 200) }}</p>
