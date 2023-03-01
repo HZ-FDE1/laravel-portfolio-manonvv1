@@ -5,8 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Article extends Model
+class Grade extends Model
 {
-    protected $fillable = ['filter','content'];
     use HasFactory;
 }

@@ -5,12 +5,12 @@
             <h1>~Blog~</h1>
         </div>
 
-            @forelse($articles as $post)
-                <h2>{{ $post->Title }}</h2>
-                <p>{{ Str::limit($post->Content, 200) }}</p>
-            @empty
-                <p style="centered">Geen posts gevonden...</p>
-            @endforelse
+        @foreach($articles as $post)
+            <a href="/blog/{{ $post->id }}/edit">
+                <h2>{{ $post->title }}</h2>
+            </a>
+            <p>{{ Str::limit($post->content, 200) }}</p>
+        @endforeach
 
         <div class="profile">
             <section>
