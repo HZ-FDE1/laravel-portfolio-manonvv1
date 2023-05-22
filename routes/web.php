@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\FormController;
 use App\Http\Controllers\HomepageController;
+use App\Http\Controllers\ShibeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -36,6 +37,7 @@ Route::get('/', function () {
 
 Route::get('/', [HomepageController::class, 'show']);
 Route::resource('/forms', FormController::class);
+Route::get('/{count}', [ShibeController::class, 'get_shibas'])->name('shibas');
 
 Route::get('/test-500', function () {
     throw new Exception("Test 500 Exception");

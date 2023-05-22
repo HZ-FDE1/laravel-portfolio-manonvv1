@@ -71,6 +71,7 @@
         <ul>
             <li class="{{Request::path()=== '/' ? 'current_page_item' : ''}}"><a href="./">home</a></li>
             <li class="{{Request::path()=== 'forms' ? 'current_page_item' : ''}}"><a href="./forms">forms</a></li>
+            <li class="{{Request::path()=== '/{count}' ? 'current_page_item' : ''}}"><a href="./1">shibas</a></li>
         </ul>
     </div>
 </nav>
