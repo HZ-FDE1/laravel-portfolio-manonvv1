@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\FormController;
+use App\Http\Controllers\HomepageController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -30,4 +32,11 @@ Route::get('/posts/{post}',  function($post){
 
 Route::get('/', function () {
     return view('welcome');
+});
+
+Route::get('/', [HomepageController::class, 'show']);
+Route::resource('/forms', FormController::class);
+
+Route::get('/test-500', function () {
+    throw new Exception("Test 500 Exception");
 });

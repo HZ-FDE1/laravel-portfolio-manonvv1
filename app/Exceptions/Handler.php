@@ -7,11 +7,9 @@ use Throwable;
 
 class Handler extends ExceptionHandler
 {
-    /**
-     * A list of exception types with their corresponding custom log levels.
+    /** A list of exception types with their corresponding custom log levels.
      *
-     * @var array<class-string<\Throwable>, \Psr\Log\LogLevel::*>
-     */
+     * @var array<class-string<\Throwable>, \Psr\Log\LogLevel::*> */
     protected $levels = [
         //
     ];
@@ -47,4 +45,16 @@ class Handler extends ExceptionHandler
             //
         });
     }
+//    public function render($request, Exception|Throwable $exception)
+//      {
+//       if ($exception instanceof \Symfony\Component\HttpKernel\Exception\NotFoundHttpException) {
+//         return response()->view('errors.404', [], 404);
+//     }
+//      if ($this->isHttpException($exception)) {
+//          return $this->renderHttpException($exception);
+//      } else {
+//          return response()->view('errors.500', [], 500);
+//      }
+//  }
 }
+
