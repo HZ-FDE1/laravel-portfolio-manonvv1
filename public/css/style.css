@@ -116,7 +116,7 @@ a:hover, .link-page {
 
 /*lettertypes*/
 
-h1 {
+h1 .random{
     font-family: lucida handwriting;
     color: rgb(0, 0, 0);
     text-align: center;
