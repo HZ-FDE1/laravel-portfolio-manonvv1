@@ -9,14 +9,14 @@
 <div class="profile">
     <h2>Waarom past deze studie bij mij?</h2>
     <figure>
-        <img class="heart" src="https://i.pinimg.com/originals/bd/d3/36/bdd3360a05b0c02cc9cc766a73bc75fc.gif"
+        <img class="heart" src="https://i.pinimg.com/originals/15/22/ed/1522ed7c30c0bb27e4c57b651815db6c.gif"
              alt="heart">
     </figure>
 
     <hr>
 
     <figure>
-        <img class="content" src="https://data.whicdn.com/images/209144489/original.gif" alt="girl studying"></p>
+        <img class="content" src="https://media.tenor.com/6fEkSd00sFEAAAAC/shiba-inu-cheek.gif" alt="shiba squish"></p>
     </figure>
 
     <p> ICT kwam als eerste in mij op omdat technische en creatieve dingen mij liggen, sinds dat ik jong was

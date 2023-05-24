@@ -59,8 +59,8 @@
         <figure>
             <img class="hz-logo" src="https://www.mimir.nu/wp-content/uploads/2021/05/logo-hz-200x200-1.png" alt="hz logo">
             <img class="espeon"
-                 src="https://64.media.tumblr.com/b0209c9ace36f0736dcba6e45baa541d/9d02af0a58dc2efd-9d/s250x400/dabcd06131c198ac3e0c1a400930501c7ea3bae0.gif"
-                 alt="espeon"></p>
+                 src="https://raw.githubusercontent.com/gist/Chuncheonian/0b458eb00f72d648e65d69ab08ca16b8/raw/91dfc8ec23b03cae760d6635d397aaf879f51c16/shiba.gif"
+                 alt="shiba"></p>
         </figure>
     </div>
 </aside>
@@ -72,6 +72,7 @@
             <li class="{{Request::path()=== '/' ? 'current_page_item' : ''}}"><a href="./">home</a></li>
             <li class="{{Request::path()=== 'forms' ? 'current_page_item' : ''}}"><a href="./forms">forms</a></li>
             <li class="{{Request::path()=== '/{count}' ? 'current_page_item' : ''}}"><a href="./1">shibas</a></li>
+            <li class="{{Request::path()=== '/{count}' ? 'current_page_item' : ''}}"><a href="./1">login</a></li>
         </ul>
     </div>
 </nav>

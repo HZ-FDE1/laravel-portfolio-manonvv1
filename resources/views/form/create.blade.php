@@ -17,7 +17,7 @@
                                             <textarea name="name"
                                                       class="textarea @error('name') is-danger @enderror"
                                                       type="text" placeholder="What's your name?"></textarea>
-                                        <img class="heart" src="https://i.pinimg.com/originals/bd/d3/36/bdd3360a05b0c02cc9cc766a73bc75fc.gif"
+                                        <img class="heart" src="https://i.pinimg.com/originals/15/22/ed/1522ed7c30c0bb27e4c57b651815db6c.gif"
                                              alt="heart">
                                     </div>
                                     @error('name')
@@ -31,7 +31,7 @@
                                             <textarea name="age"
                                                       class="textarea @error('age') is-danger @enderror"
                                                       type="text" placeholder="Tell me your age!"></textarea>
-                                            <img class="heart" src="https://i.pinimg.com/originals/bd/d3/36/bdd3360a05b0c02cc9cc766a73bc75fc.gif"
+                                            <img class="heart" src="https://i.pinimg.com/originals/15/22/ed/1522ed7c30c0bb27e4c57b651815db6c.gif"
                                                  alt="heart">
                                         </div>
                                         @error('age')
@@ -44,7 +44,7 @@
                                         <div class="control">
                                             <textarea name="email" class="textarea @error('email') is-danger @enderror"
                                                       rows="15" placeholder="What is your e-mail address?"></textarea>
-                                            <img class="heart" src="https://i.pinimg.com/originals/bd/d3/36/bdd3360a05b0c02cc9cc766a73bc75fc.gif"
+                                            <img class="heart" src="https://i.pinimg.com/originals/15/22/ed/1522ed7c30c0bb27e4c57b651815db6c.gif"
                                                  alt="heart">
                                         </div>
                                         @error('email')

@@ -1,7 +1,7 @@
 
 body {
-    background-image: url(https://r4.wallpaperflare.com/wallpaper/541/707/751/touhou-izayoi-sakuya-anime-girls-winter-wallpaper-b9d0a88df1aa9d3b1607988f3051563d.jpg);
-    background-repeat: no-repeat;
+    background-image: url(https://i.pinimg.com/originals/c2/47/da/c247da184af6145c869cf5e8ef96c826.jpg);
+    /*background-repeat: no-repeat;*/
     background-attachment: fixed;
 }
 
@@ -25,7 +25,7 @@ div.profile, div.hobbys, div.table, div.strenghts {
 
 .heading {
     width: 45%;
-    background-color:rgb(251, 231, 255);
+    background-color:rgb(255, 216, 190);
     margin-left: 260px;
     margin-right: 260px;
     padding-bottom: 5px;
@@ -38,7 +38,7 @@ div.profile, div.hobbys, div.table, div.strenghts {
 }
 
 .sidebar {
-    background-color:rgb(251, 231, 255);
+    background-color:rgb(255, 216, 190);
     width:250px;
     margin-right:95%;
     height:730px;
@@ -55,7 +55,7 @@ div.profile, div.hobbys, div.table, div.strenghts {
 
 hr {
     height: 3px;
-    background-color: rgb(201, 165, 222);
+    background-color: rgb(255, 180, 128);
     border-color: rgb(0, 0, 0);
 
 }
@@ -63,7 +63,7 @@ hr {
 .second-heading {
     height: 2px;
     background-color:  rgb(255, 255, 255);
-    border-color: rgb(193, 147, 199);
+    border-color: rgb(255, 216, 190);
 }
 
 
@@ -102,7 +102,7 @@ a, .link-sidebar, .\'current_page_item\' {
 }
 
 a:hover, .link-page {
-    color: rgb(156, 104, 169);
+    color: rgb(255, 180, 128);
 }
 
 
@@ -129,7 +129,7 @@ h1:hover {
 
 h2 {
     font-family: lucida handwriting;
-    color: rgb(156, 104, 169);
+    color: rgb(255, 177, 128);
     text-align: center;
 
 }
@@ -154,7 +154,7 @@ ol {
 }
 
 .font {
-    color:rgb(156, 104, 169);
+    color: rgb(255, 187, 144);
 }
 
 .text-sidebar {
@@ -266,6 +266,15 @@ nav, .\'current_page_item\' {
     height: 25px
 }
 
+.shiba {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95px;
+    height: 95px;
+    border: 2px inset #FBCFA9;
+}
+
 .pink-mercy, .portfolio {
     display: block;
     width: 65%;
@@ -273,6 +282,7 @@ nav, .\'current_page_item\' {
     margin-left:auto;
     margin-right:auto;
     border-radius:10px;
+    border: 2px inset #FBCFA9;
 }
 
 .characteristics-picture, .espeon, .motivation {
@@ -295,7 +305,7 @@ nav, .\'current_page_item\' {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgb(210, 166, 221);
+    background: rgb(255, 216, 190);
 }
 
 /*progressiebar*/
@@ -307,12 +317,13 @@ nav, .\'current_page_item\' {
 }
 
 .skill {
-    background-color: rgb(223, 208, 255);
+    background-color: rgb(255, 216, 190);
     color: white;
     padding: 1%;
     text-align: right;
     font-size: 20px;
     border-radius: 15px;
+    border: 2px inset #FBCFA9;
 }
 
 .html {
@@ -324,5 +335,5 @@ nav, .\'current_page_item\' {
 }
 
 .help-is-danger {
-color:purple;
+color:orange;
 }
