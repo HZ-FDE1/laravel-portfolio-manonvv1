@@ -16,7 +16,7 @@
     <hr>
 
     <figure>
-        <img class="content" src="https://data.whicdn.com/images/209144489/original.gif" alt="girl studying"></p>
+        <img class="content" src="https://media.tenor.com/6fEkSd00sFEAAAAC/shiba-inu-cheek.gif" alt="shiba squish"></p>
     </figure>
 
     <p> ICT kwam als eerste in mij op omdat technische en creatieve dingen mij liggen, sinds dat ik jong was
