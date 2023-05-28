@@ -14,66 +14,49 @@
 <aside>
     <div class="sidebar">
         <figure>
-            <img class="picture-sidebar" src="https://thumbs.gfycat.com/ElaborateFlawlessBarb-size_restricted.gif"
+            <img class="espeon" src="https://raw.githubusercontent.com/gist/Chuncheonian/0b458eb00f72d648e65d69ab08ca16b8/raw/91dfc8ec23b03cae760d6635d397aaf879f51c16/shiba.gif"
                  alt="alinealijn">
         </figure>
 
         <p class="text-sidebar">
-            <a class="link-school" target="_blank"
-               href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/NL/5.-Onderwijs-examenregelingen/Onderwijs-en-examenregeling/OER-HZ-Bacheloropleiding-voltijd-2022-2023-DEF-13-juni.pdf"
-               alt="HZ pagina">HBO-ICT CER</a>
+        <li class="{{Request::path()=== '/' ? 'current_page_item' : ''}}"><a href="./">home</a></li>
         </p>
 
         <hr class="second-heading">
 
         <p class="text-sidebar">
-            <a class="link-school" target="_blank"
-               href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2022-2023/IR-CER-HZ-B-HBO-ICT-full-time-2022-2023-DEF.pdf"
-               alt="implementation regulations">Implementation Regulations</a>
+        <li class="{{Request::path()=== 'forms' ? 'current_page_item' : ''}}"><a href="./forms">forms</a></li>
         </p>
 
         <hr class="second-heading">
 
         <p class="text-sidebar">
-            <a class="link-school" target="_blank" href="https://learn.hz.nl/" alt="learn">Learn</a>
+        <li class="{{Request::path()=== '/{count}' ? 'current_page_item' : ''}}"><a href="./1">shibas</a></li>
         </p>
 
         <hr class="second-heading">
 
         <p class="text-sidebar">
-            <a class="link-school" target="_blank" href="https://www.microsoft.com/nl-nl/microsoft-teams/log-in"
-               alt="teams">Teams</a>
+        <li class="{{Request::path()=== '/{count}' ? 'current_page_item' : ''}}"><a href="./1">login</a></li>
         </p>
 
         <hr class="second-heading">
 
         <p class="text-sidebar">
-            <a class="link-school" target="_blank" href="https://portal.hz.nl/" alt="study progress">Study Progress</a>
         </p>
 
         <hr class="second-heading">
 
         <p class="text-sidebar">
-            <a class="link-school" target="_blank" href="https://github.com/HZ-HBO-ICT" alt="github">Github</a>
 
-        <figure>
-            <img class="hz-logo" src="https://www.mimir.nu/wp-content/uploads/2021/05/logo-hz-200x200-1.png" alt="hz logo">
-            <img class="espeon"
-                 src="https://64.media.tumblr.com/b0209c9ace36f0736dcba6e45baa541d/9d02af0a58dc2efd-9d/s250x400/dabcd06131c198ac3e0c1a400930501c7ea3bae0.gif"
-                 alt="espeon"></p>
-        </figure>
+        {{--        <figure>--}}
+        {{--            <img class="espeon"--}}
+        {{--                 src="https://raw.githubusercontent.com/gist/Chuncheonian/0b458eb00f72d648e65d69ab08ca16b8/raw/91dfc8ec23b03cae760d6635d397aaf879f51c16/shiba.gif"--}}
+        {{--                 alt="shiba"></p>--}}
+        {{--        </figure>--}}
     </div>
 </aside>
 
-
-<nav>
-    <div class="navigation">
-        <ul>
-            <li class="{{Request::path()=== '/' ? 'current_page_item' : ''}}"><a href="./">home</a></li>
-            <li class="{{Request::path()=== 'forms' ? 'current_page_item' : ''}}"><a href="./forms">forms</a></li>
-        </ul>
-    </div>
-</nav>
 <body>
 @yield('content')
 </body>
