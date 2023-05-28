@@ -249,13 +249,9 @@ nav, .\'current_page_item\' {
 
 .picture-sidebar {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 204px;
-    height: 38px;
-    margin-bottom: 30px;
-    top: 30px;
-    border-radius:10px;
+    left: 0px;
+    width: 150%;
+    height: 100%;
 }
 
 .heart {
@@ -272,7 +268,6 @@ nav, .\'current_page_item\' {
     margin-right: auto;
     width: 95px;
     height: 95px;
-    border: 2px inset #FBCFA9;
 }
 
 .pink-mercy, .portfolio {
@@ -335,5 +330,17 @@ nav, .\'current_page_item\' {
 }
 
 .help-is-danger {
-color:orange;
+    color: black;
+    border: 2px solid #FF9999;
+    width: 360px;
+    background: #FF6868;
+    background: -moz-linear-gradient(left, #FF6868 0%, #FF9999 50%, #FF6868 100%);
+    background: -webkit-linear-gradient(left, #FF6868 0%, #FF9999 50%, #FF6868 100%);
+    background: linear-gradient(to right, #FF6868 0%, #FF9999 50%, #FF6868 100%);
 }
+
+.form-font {
+    font-family: Trebuchet MS;
+}
+
+

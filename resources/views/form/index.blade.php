@@ -4,7 +4,7 @@
     <section class="hero  is-medium  is-bold is-primary">
         <div class="hero-body">
             <div class="heading">
-                <h1>Here's the data you asked for!</h1>
+                <h1>Shiba enjoyers</h1>
             </div>
         </div>
     </section>
@@ -15,7 +15,7 @@
                 <div class="column is-full">
                     <div class="content">
 
-                            <h1><a href="/forms/create" class="button is-primary">Add your data!</a></h1>
+                            <h1><a href="/forms/create" class="button is-primary">Join shiba lovers community.</a></h1>
                         </div>
                     <hr class="second-heading">
                     <div class="column is-12">
