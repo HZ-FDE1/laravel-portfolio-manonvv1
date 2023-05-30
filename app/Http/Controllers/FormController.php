@@ -93,7 +93,7 @@ class FormController extends Controller
     private function validateForm(Request $request): array{
         $validatedForm = $request->validate([
 
-            'name' => 'required|max:100',
+            'name' => 'required|max:100|alpha',
             'age' => 'required|numeric|min:12|max:99',
             'email' => 'required|email',
         ]);
