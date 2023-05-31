@@ -9,6 +9,7 @@
     <meta name="description" content="Een overzicht van de geplaatste blogs.">
     <title>Homepagina</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript" src="/js/shiba.js"></script>
 </head>
 
 <aside>
