@@ -14,7 +14,7 @@ class FormController extends Controller
      */
     public function index()
     {
-        $forms = Form::orderBy('name', 'asc')->paginate(70);
+        $forms = Form::all();
 
         return view('form.index', compact('forms'));
     }

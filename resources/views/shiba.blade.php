@@ -8,23 +8,23 @@
     <div class="profile">
         <p id="random-number"></p>
     </div>
-@foreach($shiba as $picture)
-    <div class="profile">
-    <img src="{{ $picture }}" class="portfolio">
-    </div>
+{{--@foreach($shiba as $picture)--}}
+{{--    <div class="profile">--}}
+{{--    <img src="{{ $picture }}" class="portfolio">--}}
+{{--    </div>--}}
 
     <script>
-    document.addEventListener("DOMContentLoaded", function() {
         let currentURL = window.location.href;
         let parts = currentURL.split("/");
         let randomNumber = parseInt(parts[parts.length - 1]);
-
-        if (!isNaN(randomNumber)) {
-            document.getElementById("random-number").textContent = "The amount of shiba's you've got: " + randomNumber ;
-            }
+        document.addEventListener("DOMContentLoaded", function() {
+            if (!isNaN(randomNumber)) {
+                document.getElementById("random-number").textContent = "The amount of shiba's you've got: " + randomNumber ;
+                }
         });
+        shibaCount = randomNumber;
     </script>
 
-@endforeach
+{{--@endforeach--}}
 @endsection
 
