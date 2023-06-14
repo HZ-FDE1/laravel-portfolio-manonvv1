@@ -38,7 +38,7 @@ class FormController extends Controller
     public function store(Request $request)
     {
         Form::create($this->validateForm($request));
-        return redirect(route('form.index'));
+        return redirect(route('forms.index'));
     }
 
     /**
@@ -74,7 +74,7 @@ class FormController extends Controller
     {
         $form->update($this->validateForm($request));
 
-        return redirect()->route('form.show', $form);
+        return redirect()->route('forms.show', $form);
     }
 
     /**
@@ -87,7 +87,7 @@ class FormController extends Controller
     {
         $form->delete();
 
-        return redirect()->route('form.index');
+        return redirect()->route('forms.index');
     }
 
     private function validateForm(Request $request): array{

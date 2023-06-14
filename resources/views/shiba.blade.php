@@ -8,11 +8,6 @@
     <div class="profile">
         <p id="random-number"></p>
     </div>
-{{--@foreach($shiba as $picture)--}}
-{{--    <div class="profile">--}}
-{{--    <img src="{{ $picture }}" class="portfolio">--}}
-{{--    </div>--}}
-
     <script>
         let currentURL = window.location.href;
         let parts = currentURL.split("/");
@@ -25,6 +20,5 @@
         shibaCount = randomNumber;
     </script>
 
-{{--@endforeach--}}
 @endsection
 
