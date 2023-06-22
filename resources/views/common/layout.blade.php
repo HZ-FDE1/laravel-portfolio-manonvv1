@@ -32,18 +32,7 @@
         <hr class="second-heading">
 
         <p class="text-sidebar">
-        <li class="{{Request::path()=== '/{count}' ? 'current_page_item' : ''}}"><a href="./1">shibas</a></li>
-        </p>
-
-        <hr class="second-heading">
-
-        <p class="text-sidebar">
-        <li class="{{Request::path()=== '/{count}' ? 'current_page_item' : ''}}"><a href="./1">login</a></li>
-        </p>
-
-        <hr class="second-heading">
-
-        <p class="text-sidebar">
+        <li class="{{Request::path()=== 'forms' ? 'current_page_item' : ''}}"><a href="./dashboard">dashboard</a></li>
         </p>
 
         <hr class="second-heading">
